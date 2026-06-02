@@ -1,4 +1,12 @@
-LibraryManagementSystem
-=======================
+Nomes: 
+Pedro Paiva Ferreira
 
-Java Console Project for Library Management System. Compile and Run!
+Gabriel Nascimento Krepker
+
+Joao Victor da Costa
+
+Rafael Henriques Lima
+
+Gabriel Monteiro
+
+Mateus Silva Xavier

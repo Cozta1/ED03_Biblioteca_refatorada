@@ -1,0 +1,238 @@
+Refatorado\src\com\biblioteca\Main.java:12:	ShortClassName:	Avoid short class names like Main
+Refatorado\src\com\biblioteca\Main.java:12:	UseUtilityClass:	This utility class has a non-private constructor
+Refatorado\src\com\biblioteca\Main.java:14:	LocalVariableCouldBeFinal:	Local variable 'recursos' could be declared final
+Refatorado\src\com\biblioteca\Main.java:15:	LocalVariableCouldBeFinal:	Local variable 'usuarios' could be declared final
+Refatorado\src\com\biblioteca\Main.java:16:	LocalVariableCouldBeFinal:	Local variable 'adminService' could be declared final
+Refatorado\src\com\biblioteca\Main.java:17:	LocalVariableCouldBeFinal:	Local variable 'emprestimoService' could be declared final
+Refatorado\src\com\biblioteca\Main.java:18:	LocalVariableCouldBeFinal:	Local variable 'menu' could be declared final
+Refatorado\src\com\biblioteca\Main.java:22:	ShortVariable:	Avoid variables with short names like sc
+Refatorado\src\com\biblioteca\model\Livro.java:5:	LongVariable:	Avoid excessively long variable names like PRAZO_ESTUDANTE_DIAS
+Refatorado\src\com\biblioteca\model\Livro.java:6:	LongVariable:	Avoid excessively long variable names like PRAZO_PROFESSOR_DIAS
+Refatorado\src\com\biblioteca\model\Livro.java:9:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\Livro.java:9:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Livro.java:9:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Livro.java:19:	MethodArgumentCouldBeFinal:	Parameter 'tipo' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Livro.java:20:	LawOfDemeter:	Access to field `PROFESSOR` on foreign value `TipoUsuario` (degree 1)
+Refatorado\src\com\biblioteca\model\Livro.java:21:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Refatorado\src\com\biblioteca\model\PacoteCurso.java:8:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\PacoteCurso.java:8:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\PacoteCurso.java:8:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Recurso.java:4:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\Recurso.java:7:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\Recurso.java:7:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Recurso.java:7:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:8:	LongVariable:	Avoid excessively long variable names like idUsuarioEmprestou
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:13:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:13:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:13:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:24:	MethodArgumentCouldBeFinal:	Parameter 'idUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:24:	MethodArgumentCouldBeFinal:	Parameter 'diasPrazo' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:34:	NullAssignment:	Assigning an Object to null is a code smell.  Consider refactoring.
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:35:	NullAssignment:	Assigning an Object to null is a code smell.  Consider refactoring.
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:38:	MethodArgumentCouldBeFinal:	Parameter 'idUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\RecursoEmprestavel.java:48:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Refatorado\src\com\biblioteca\model\Revista.java:5:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\Revista.java:5:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Revista.java:5:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\TipoUsuario.java:10:	MethodArgumentCouldBeFinal:	Parameter 'limite' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:7:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\Usuario.java:11:	LongVariable:	Avoid excessively long variable names like recursosEmprestados
+Refatorado\src\com\biblioteca\model\Usuario.java:12:	LongVariable:	Avoid excessively long variable names like recursosSolicitados
+Refatorado\src\com\biblioteca\model\Usuario.java:14:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\model\Usuario.java:14:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:14:	MethodArgumentCouldBeFinal:	Parameter 'nomeUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:14:	MethodArgumentCouldBeFinal:	Parameter 'senha' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:14:	MethodArgumentCouldBeFinal:	Parameter 'tipo' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:23:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:23:	MethodArgumentCouldBeFinal:	Parameter 'senhaInformada' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:31:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:35:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:39:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:43:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:44:	UnnecessaryBoxing:	Unnecessary explicit boxing
+Refatorado\src\com\biblioteca\model\Usuario.java:47:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:51:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\model\Usuario.java:52:	UnnecessaryBoxing:	Unnecessary explicit boxing
+Refatorado\src\com\biblioteca\service\AdminService.java:5:	UnnecessaryImport:	Unused import 'com.biblioteca.model.Recurso'
+Refatorado\src\com\biblioteca\service\AdminService.java:12:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\service\AdminService.java:13:	LongVariable:	Avoid excessively long variable names like repositorioUsuarios
+Refatorado\src\com\biblioteca\service\AdminService.java:15:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\service\AdminService.java:15:	MethodArgumentCouldBeFinal:	Parameter 'repositorioRecursos' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:16:	LongVariable:	Avoid excessively long variable names like repositorioUsuarios
+Refatorado\src\com\biblioteca\service\AdminService.java:16:	MethodArgumentCouldBeFinal:	Parameter 'repositorioUsuarios' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:21:	MethodArgumentCouldBeFinal:	Parameter 'nomeUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:21:	MethodArgumentCouldBeFinal:	Parameter 'senha' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:21:	MethodArgumentCouldBeFinal:	Parameter 'tipo' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:25:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\AdminService.java:25:	LocalVariableCouldBeFinal:	Local variable 'id' could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:30:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\AdminService.java:30:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:34:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:35:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\AdminService.java:35:	LocalVariableCouldBeFinal:	Local variable 'id' could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:40:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:41:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\AdminService.java:41:	LocalVariableCouldBeFinal:	Local variable 'id' could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:46:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:47:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\AdminService.java:47:	LocalVariableCouldBeFinal:	Local variable 'id' could be declared final
+Refatorado\src\com\biblioteca\service\AdminService.java:52:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\AdminService.java:52:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:11:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:12:	LongVariable:	Avoid excessively long variable names like repositorioUsuarios
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:14:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:14:	MethodArgumentCouldBeFinal:	Parameter 'repositorioRecursos' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:15:	LongVariable:	Avoid excessively long variable names like repositorioUsuarios
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:15:	MethodArgumentCouldBeFinal:	Parameter 'repositorioUsuarios' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:20:	MethodArgumentCouldBeFinal:	Parameter 'idUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:20:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:21:	LocalVariableCouldBeFinal:	Local variable 'usuario' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:22:	LocalVariableCouldBeFinal:	Local variable 'recurso' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:26:	LocalVariableCouldBeFinal:	Local variable 'emprestavel' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:27:	LocalVariableCouldBeFinal:	Local variable 'prazo' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:32:	MethodArgumentCouldBeFinal:	Parameter 'idUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:32:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:33:	LocalVariableCouldBeFinal:	Local variable 'usuario' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:34:	LocalVariableCouldBeFinal:	Local variable 'recurso' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:35:	LocalVariableCouldBeFinal:	Local variable 'emprestavel' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:37:	LocalVariableCouldBeFinal:	Local variable 'multa' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:43:	MethodArgumentCouldBeFinal:	Parameter 'idUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:43:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:44:	LocalVariableCouldBeFinal:	Local variable 'usuario' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:49:	LocalVariableCouldBeFinal:	Local variable 'recurso' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:56:	MethodArgumentCouldBeFinal:	Parameter 'idUsuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:60:	MethodArgumentCouldBeFinal:	Parameter 'usuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:60:	MethodArgumentCouldBeFinal:	Parameter 'recurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:67:	LocalVariableCouldBeFinal:	Local variable 'emprestavel' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:73:	MethodArgumentCouldBeFinal:	Parameter 'usuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:73:	MethodArgumentCouldBeFinal:	Parameter 'recurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:77:	LocalVariableCouldBeFinal:	Local variable 'emprestavel' could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:84:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:84:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:89:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\EmprestimoService.java:89:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:12:	AvoidFieldNameMatchingMethodName:	Field proximoId has the same name as a method
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:23:	ShortVariable:	Avoid variables with short names like r
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:23:	MethodArgumentCouldBeFinal:	Parameter 'r' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:27:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:27:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:31:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:31:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioRecursos.java:37:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:11:	AvoidFieldNameMatchingMethodName:	Field proximoId has the same name as a method
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:11:	UseUnderscoresInNumericLiterals:	Number 14100180 should separate every third digit with an underscore
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:22:	ShortVariable:	Avoid variables with short names like u
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:22:	MethodArgumentCouldBeFinal:	Parameter 'u' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:26:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:26:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:30:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:30:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:36:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\service\RepositorioUsuarios.java:42:	MethodArgumentCouldBeFinal:	Parameter 'nome' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:6:	UnnecessaryImport:	Unused import 'com.biblioteca.service.RepositorioUsuarios'
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:14:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:16:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:16:	MethodArgumentCouldBeFinal:	Parameter 'repositorioRecursos' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:20:	MethodArgumentCouldBeFinal:	Parameter 'ids' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:22:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:25:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:32:	LocalVariableCouldBeFinal:	Local variable 'lista' could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:34:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:37:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:39:	ShortVariable:	Avoid variables with short names like r
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:39:	LocalVariableCouldBeFinal:	Local variable 'r' could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:40:	LocalVariableCouldBeFinal:	Local variable 'status' could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:41:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:45:	MethodArgumentCouldBeFinal:	Parameter 'numero' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:45:	MethodArgumentCouldBeFinal:	Parameter 'idRecurso' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:48:	ShortVariable:	Avoid variables with short names like re
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:48:	LocalVariableCouldBeFinal:	Local variable 're' could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:49:	LocalVariableCouldBeFinal:	Local variable 'dataEmp' could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:51:	LocalVariableCouldBeFinal:	Local variable 'dataDev' could be declared final
+Refatorado\src\com\biblioteca\ui\ExibidorDeRecursos.java:53:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:17:	MethodArgumentCouldBeFinal:	Parameter 'scanner' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:17:	MethodArgumentCouldBeFinal:	Parameter 'adminService' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:25:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:26:	LocalVariableCouldBeFinal:	Local variable 'opcao' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:29:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:30:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:35:	CyclomaticComplexity:	The method 'processar(int)' has a cyclomatic complexity of 10.
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:35:	MethodArgumentCouldBeFinal:	Parameter 'opcao' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:40:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:40:	AvoidDuplicateLiterals:	The String literal "Nome: " appears 4 times in this file; the first occurrence is on line 40
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:41:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:42:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:45:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:46:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:51:	MethodArgumentCouldBeFinal:	Parameter 'tipo' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:52:	LocalVariableCouldBeFinal:	Local variable 'nome' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:53:	LocalVariableCouldBeFinal:	Local variable 'senha' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:54:	ShortVariable:	Avoid variables with short names like id
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:54:	LocalVariableCouldBeFinal:	Local variable 'id' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:55:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:58:	MethodArgumentCouldBeFinal:	Parameter 'label' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:59:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:63:	MethodArgumentCouldBeFinal:	Parameter 'label' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:64:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:69:	ShortVariable:	Avoid variables with short names like v
+Refatorado\src\com\biblioteca\ui\MenuAdmin.java:69:	LocalVariableCouldBeFinal:	Local variable 'v' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:15:	LongVariable:	Avoid excessively long variable names like repositorioUsuarios
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:18:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:20:	LongVariable:	Avoid excessively long variable names like repositorioUsuarios
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:20:	MethodArgumentCouldBeFinal:	Parameter 'repositorioUsuarios' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:21:	MethodArgumentCouldBeFinal:	Parameter 'adminService' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:22:	MethodArgumentCouldBeFinal:	Parameter 'emprestimoService' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:23:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:23:	MethodArgumentCouldBeFinal:	Parameter 'repositorioRecursos' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:30:	MethodArgumentCouldBeFinal:	Parameter 'scanner' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:31:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:34:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:35:	LocalVariableCouldBeFinal:	Local variable 'opcao' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:40:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:43:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:46:	MethodArgumentCouldBeFinal:	Parameter 'scanner' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:46:	MethodArgumentCouldBeFinal:	Parameter 'tiposPermitidos' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:47:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:48:	LocalVariableCouldBeFinal:	Local variable 'nome' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:49:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:50:	LocalVariableCouldBeFinal:	Local variable 'senha' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:52:	LocalVariableCouldBeFinal:	Local variable 'encontrado' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:54:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:55:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:58:	LocalVariableCouldBeFinal:	Local variable 'usuario' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:60:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:67:	MethodArgumentCouldBeFinal:	Parameter 'tipo' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:67:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:67:	MethodArgumentCouldBeFinal:	Parameter 'permitidos' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:68:	LocalVariableCouldBeFinal:	Local variable 'p' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:69:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:69:	ControlStatementBraces:	This statement should have braces
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:74:	MethodArgumentCouldBeFinal:	Parameter 'scanner' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:74:	MethodArgumentCouldBeFinal:	Parameter 'usuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:82:	MethodArgumentCouldBeFinal:	Parameter 'scanner' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:83:	ShortVariable:	Avoid variables with short names like v
+Refatorado\src\com\biblioteca\ui\MenuPrincipal.java:83:	LocalVariableCouldBeFinal:	Local variable 'v' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:18:	MethodArgumentCouldBeFinal:	Parameter 'scanner' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:18:	MethodArgumentCouldBeFinal:	Parameter 'usuario' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:19:	MethodArgumentCouldBeFinal:	Parameter 'emprestimoService' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:20:	LongVariable:	Avoid excessively long variable names like repositorioRecursos
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:20:	MethodArgumentCouldBeFinal:	Parameter 'repositorioRecursos' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:30:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:31:	LocalVariableCouldBeFinal:	Local variable 'opcao' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:34:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:35:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:40:	MethodArgumentCouldBeFinal:	Parameter 'opcao' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:46:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:47:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:53:	LocalVariableCouldBeFinal:	Local variable 'idRecurso' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:55:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:59:	LocalVariableCouldBeFinal:	Local variable 'idRecurso' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:60:	LocalVariableCouldBeFinal:	Local variable 'multa' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:61:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:65:	LocalVariableCouldBeFinal:	Local variable 'idRecurso' could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:67:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:70:	MethodArgumentCouldBeFinal:	Parameter 'label' is not assigned and could be declared final
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:71:	SystemPrintln:	Usage of System.out/err
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:76:	ShortVariable:	Avoid variables with short names like v
+Refatorado\src\com\biblioteca\ui\MenuUsuario.java:76:	LocalVariableCouldBeFinal:	Local variable 'v' could be declared final
+LoosePackageCoupling	-	No packages or classes specified

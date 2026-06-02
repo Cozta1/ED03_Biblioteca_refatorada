@@ -1,0 +1,170 @@
+Found a 17 line (85 tokens) duplication in the following files: 
+Starting at line 321 of Code\Driver.java
+Starting at line 347 of Code\Driver.java
+
+	void borrowIO(Borrower borrower, int type){
+	
+		// This function asks for the name or ID of the resource to be borrowed and calls tryIssue function of the Borrower.java
+		ArrayList<LibraryResource> resources = new ArrayList<LibraryResource>();
+		String name;
+		int id = -1;
+		System.out.println("Enter the name or ID of resource:");
+		if(sc.hasNextInt()){
+			id = sc.nextInt();
+			name =  sc.nextLine();
+		}
+		else{
+			name = sc.nextLine();
+			if(myLibrary.findResource(name)!=null){
+				resources = myLibrary.findResource(name);
+			}
+		}
+
+=====================================================================
+Found a 11 line (78 tokens) duplication in the following files: 
+Starting at line 63 of Code\Borrower.java
+Starting at line 100 of Code\Borrower.java
+
+    void viewIssued(){
+			if(issuedResources.size() == 0){
+				System.out.println("There are no resources issued!\n");
+				return;
+			}
+			DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+			Borrowable res;
+			Library lib = Library.getInstance("LUMS Library");
+			System.out.println("Following are the issued resources:\n\nNo.\tResourceID --- Resource --- Issue Date --- Due Date");
+			for(int i=0;i<issuedResources.size();i++){
+				res = (Borrowable)(lib.findResource(issuedResources.get(i)));
+
+=====================================================================
+Found a 4 line (69 tokens) duplication in the following files: 
+Starting at line 89 of Code\Borrower.java
+Starting at line 108 of Code\Borrower.java
+
+			System.out.println("Following are the issued resources:\n\nNo.\tResourceID --- Resource --- Issue Date");
+			for(int i=0;i<issuedResources.size();i++){
+				res = (Borrowable)(lib.findResource((int)issuedResources.get(i)));
+				System.out.println("\n"+(i+1)+".\t"+res.resourceID+" --- "+res.resourceName+" --- "+res.getIssueDate());
+
+=====================================================================
+Found a 10 line (64 tokens) duplication in the following files: 
+Starting at line 117 of Code\Driver.java
+Starting at line 188 of Code\Driver.java
+
+					case 9:
+						System.out.println("Do you really want to log out? y/n");		// asks user if wants to log out
+						userInput = sc.nextLine();
+						if((userInput.equals("y") || userInput.equals("Y"))){
+							System.out.println("Thanks... logging out!");
+							user.logout();
+							done = true;
+						}
+						else{
+							System.out.println(user.userName + " still Logged in...");
+
+=====================================================================
+Found a 10 line (64 tokens) duplication in the following files: 
+Starting at line 109 of Code\Library.java
+Starting at line 119 of Code\Library.java
+
+				books++;
+				borrowable = (Borrowable)resources.get(i);
+				if(borrowable.requests.size()>0)
+					request++;
+				if(borrowable.getReturnDate1() != null && date.compareTo(borrowable.getReturnDate1()) > 0)
+					overdue++;
+				if(!borrowable.checkStatus())
+					issued++;
+			}
+			else if(resources.get(i).type == Constants.COURSE_PACK){
+
+=====================================================================
+Found a 9 line (55 tokens) duplication in the following files: 
+Starting at line 298 of Code\Driver.java
+Starting at line 356 of Code\Driver.java
+
+			userInput = sc.nextLine();
+		}
+		else{
+			name = sc.nextLine();
+			if(myLibrary.findResource(name)!=null){
+				resources = myLibrary.findResource(name);
+			}
+		}
+		for(int i =0;i<resources.size();i++){
+
+=====================================================================
+Found a 9 line (54 tokens) duplication in the following files: 
+Starting at line 327 of Code\Driver.java
+Starting at line 399 of Code\Driver.java
+
+		System.out.println("Enter the name or ID of resource:");
+		if(sc.hasNextInt()){
+			id = sc.nextInt();
+			name =  sc.nextLine();
+		}
+		else{
+			name = sc.nextLine();
+			if(myLibrary.findResource(name)!=null){
+				resources = myLibrary.findResource(name);
+
+=====================================================================
+Found a 9 line (54 tokens) duplication in the following files: 
+Starting at line 353 of Code\Driver.java
+Starting at line 399 of Code\Driver.java
+
+		System.out.println("Enter the name or ID of resource:");
+		if(sc.hasNextInt()){
+			id = sc.nextInt();
+			name = sc.nextLine();
+		}
+		else{
+			name = sc.nextLine();
+			if(myLibrary.findResource(name)!=null){
+				resources = myLibrary.findResource(name);
+
+=====================================================================
+Found a 9 line (49 tokens) duplication in the following files: 
+Starting at line 63 of Code\Borrower.java
+Starting at line 81 of Code\Borrower.java
+Starting at line 100 of Code\Borrower.java
+
+    void viewIssued(){
+			if(issuedResources.size() == 0){
+				System.out.println("There are no resources issued!\n");
+				return;
+			}
+			DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+			Borrowable res;
+			Library lib = Library.getInstance("LUMS Library");
+			System.out.println("Following are the issued resources:\n\nNo.\tResourceID --- Resource --- Issue Date --- Due Date");
+
+=====================================================================
+Found a 10 line (49 tokens) duplication in the following files: 
+Starting at line 242 of Code\Borrower.java
+Starting at line 313 of Code\Borrower.java
+
+			int relatedFineID = borrowable.getRelatedFine();
+			for(Fine fine: fines){
+				if(fine.fineID == relatedFineID){
+					lib.removeToBeFined(fine);
+					if(fine.fine == 0){										// If there was no fine, then remove this object<Fine>
+					
+						fines.remove(fine);
+					}
+				}
+			}
+
+=====================================================================
+Found a 6 line (41 tokens) duplication in the following files: 
+Starting at line 20 of Code\Book.java
+Starting at line 8 of Code\CoursePack.java
+
+			issuedTo = userID;
+			available = false;
+			Calendar cal = Calendar.getInstance();
+			cal.add(Calendar.DAY_OF_YEAR,-1);
+			dueDate = cal.getTime();
+			cal.add(Calendar.DAY_OF_YEAR,-daysToIssue-1);
+

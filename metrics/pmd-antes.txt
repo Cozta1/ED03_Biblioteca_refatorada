@@ -1,0 +1,733 @@
+Code\Admin.java:1:	UnnecessaryImport:	Unused import 'java.util.ArrayList'
+Code\Admin.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Admin.java:5:	MethodArgumentCouldBeFinal:	Parameter 'userName' is not assigned and could be declared final
+Code\Admin.java:5:	MethodArgumentCouldBeFinal:	Parameter 'password' is not assigned and could be declared final
+Code\Admin.java:5:	MethodArgumentCouldBeFinal:	Parameter 'type' is not assigned and could be declared final
+Code\Admin.java:6:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Admin.java:9:	SystemPrintln:	Usage of System.out/err
+Code\Admin.java:10:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Admin.java:14:	LawOfDemeter:	Access to field `ADMIN` on foreign value `Constants` (degree 1)
+Code\Admin.java:15:	LocalVariableCouldBeFinal:	Local variable 'admin' could be declared final
+Code\Admin.java:17:	LawOfDemeter:	Access to field `users` on foreign value `lib` (degree 1)
+Code\Admin.java:19:	LawOfDemeter:	Access to field `STUDENT` on foreign value `Constants` (degree 1)
+Code\Admin.java:20:	LocalVariableCouldBeFinal:	Local variable 'student' could be declared final
+Code\Admin.java:21:	LawOfDemeter:	Access to field `userID` on foreign value `student` (degree 1)
+Code\Admin.java:21:	LawOfDemeter:	Access to field `nextUserID` on foreign value `Library` (degree 1)
+Code\Admin.java:22:	LawOfDemeter:	Access to field `nextUserID` on foreign value `Library` (degree 1)
+Code\Admin.java:24:	LawOfDemeter:	Access to field `users` on foreign value `lib` (degree 1)
+Code\Admin.java:26:	LawOfDemeter:	Access to field `FACULTY` on foreign value `Constants` (degree 1)
+Code\Admin.java:27:	LocalVariableCouldBeFinal:	Local variable 'faculty' could be declared final
+Code\Admin.java:28:	LawOfDemeter:	Access to field `userID` on foreign value `faculty` (degree 1)
+Code\Admin.java:28:	LawOfDemeter:	Access to field `nextUserID` on foreign value `Library` (degree 1)
+Code\Admin.java:29:	LawOfDemeter:	Access to field `nextUserID` on foreign value `Library` (degree 1)
+Code\Admin.java:31:	LawOfDemeter:	Access to field `users` on foreign value `lib` (degree 1)
+Code\Admin.java:39:	MethodArgumentCouldBeFinal:	Parameter 'userID' is not assigned and could be declared final
+Code\Admin.java:41:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Admin.java:42:	LocalVariableCouldBeFinal:	Local variable 'user' could be declared final
+Code\Admin.java:43:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {elseBranch};`
+Code\Admin.java:44:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Admin.java:51:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Code\Admin.java:51:	MethodArgumentCouldBeFinal:	Parameter 'type' is not assigned and could be declared final
+Code\Admin.java:52:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Admin.java:54:	LawOfDemeter:	Access to field `BOOK` on foreign value `Constants` (degree 1)
+Code\Admin.java:56:	LocalVariableCouldBeFinal:	Local variable 'book' could be declared final
+Code\Admin.java:57:	LawOfDemeter:	Access to field `resources` on foreign value `lib` (degree 1)
+Code\Admin.java:60:	LawOfDemeter:	Access to field `COURSE_PACK` on foreign value `Constants` (degree 1)
+Code\Admin.java:61:	LocalVariableCouldBeFinal:	Local variable 'pack' could be declared final
+Code\Admin.java:62:	LawOfDemeter:	Access to field `resources` on foreign value `lib` (degree 1)
+Code\Admin.java:65:	LawOfDemeter:	Access to field `MAGAZINE` on foreign value `Constants` (degree 1)
+Code\Admin.java:66:	LocalVariableCouldBeFinal:	Local variable 'mag' could be declared final
+Code\Admin.java:67:	LawOfDemeter:	Access to field `resources` on foreign value `lib` (degree 1)
+Code\Admin.java:71:	LawOfDemeter:	Access to field `nextResID` on foreign value `Library` (degree 1)
+Code\Admin.java:75:	MethodArgumentCouldBeFinal:	Parameter 'resourceID' is not assigned and could be declared final
+Code\Admin.java:76:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Admin.java:81:	CallSuperInConstructor:	It is a good practice to call super() in a constructor
+Code\Admin.java:81:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'Admin(String, String, int, boolean)'
+Code\Admin.java:81:	MethodArgumentCouldBeFinal:	Parameter 'user' is not assigned and could be declared final
+Code\Admin.java:81:	MethodArgumentCouldBeFinal:	Parameter 'pass' is not assigned and could be declared final
+Code\Admin.java:81:	MethodArgumentCouldBeFinal:	Parameter 'typ' is not assigned and could be declared final
+Code\Admin.java:81:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'firstInstance'.
+Code\Admin.java:86:	LawOfDemeter:	Access to field `nextUserID` on foreign value `Library` (degree 1)
+Code\Admin.java:87:	LawOfDemeter:	Access to field `nextUserID` on foreign value `Library` (degree 1)
+Code\AdminInterface.java:6:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Book.java:2:	UnnecessaryImport:	Unused import 'java.text.DateFormat'
+Code\Book.java:3:	UnnecessaryImport:	Unused import 'java.text.SimpleDateFormat'
+Code\Book.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Book.java:5:	ShortClassName:	Avoid short class names like Book
+Code\Book.java:7:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'issueResource(int)'
+Code\Book.java:7:	MethodArgumentCouldBeFinal:	Parameter 'userID' is not assigned and could be declared final
+Code\Book.java:8:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Book.java:9:	LocalVariableCouldBeFinal:	Local variable 'user' could be declared final
+Code\Book.java:10:	LocalVariableCouldBeFinal:	Local variable 'daysToIssue' could be declared final
+Code\Book.java:11:	LawOfDemeter:	Access to field `type` on foreign value `user` (degree 1)
+Code\Book.java:11:	LawOfDemeter:	Access to field `FACULTY` on foreign value `Constants` (degree 1)
+Code\Book.java:14:	LawOfDemeter:	Access to field `type` on foreign value `user` (degree 1)
+Code\Book.java:14:	LawOfDemeter:	Access to field `STUDENT` on foreign value `Constants` (degree 1)
+Code\Book.java:18:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Book.java:22:	LocalVariableCouldBeFinal:	Local variable 'cal' could be declared final
+Code\Book.java:27:	SystemPrintln:	Usage of System.out/err
+Code\Book.java:31:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'renewResource(int)'
+Code\Book.java:31:	MethodArgumentCouldBeFinal:	Parameter 'days' is not assigned and could be declared final
+Code\Book.java:34:	LocalVariableCouldBeFinal:	Local variable 'cal' could be declared final
+Code\Book.java:38:	SystemPrintln:	Usage of System.out/err
+Code\Book.java:39:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Book.java:46:	CallSuperInConstructor:	It is a good practice to call super() in a constructor
+Code\Book.java:46:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'Book(String, int)'
+Code\Book.java:46:	MethodArgumentCouldBeFinal:	Parameter 'resName' is not assigned and could be declared final
+Code\Book.java:46:	MethodArgumentCouldBeFinal:	Parameter 'resID' is not assigned and could be declared final
+Code\Book.java:51:	LawOfDemeter:	Access to field `BOOK` on foreign value `Constants` (degree 1)
+Code\Borrowable.java:4:	UnnecessaryImport:	Unused import 'java.text.ParseException'
+Code\Borrowable.java:10:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Borrowable.java:10:	AtLeastOneConstructor:	Each class should declare at least one constructor
+Code\Borrowable.java:12:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+Code\Borrowable.java:12:	ReplaceVectorWithList:	Consider replacing this Vector with the newer java.util.List
+Code\Borrowable.java:12:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'requests'
+Code\Borrowable.java:12:	ReplaceVectorWithList:	Consider replacing this Vector with the newer java.util.List
+Code\Borrowable.java:12:	UseArrayListInsteadOfVector:	Use ArrayList instead of Vector
+Code\Borrowable.java:12:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new Vector<>()`
+Code\Borrowable.java:13:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'issueDate'
+Code\Borrowable.java:14:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'dueDate'
+Code\Borrowable.java:15:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'issuedTo'
+Code\Borrowable.java:16:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'relatedFineID'
+Code\Borrowable.java:18:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'available'
+Code\Borrowable.java:24:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'viewRequests()'
+Code\Borrowable.java:25:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrowable.java:26:	SystemPrintln:	Usage of System.out/err
+Code\Borrowable.java:29:	ShortVariable:	Avoid variables with short names like sp
+Code\Borrowable.java:29:	LocalVariableCouldBeFinal:	Local variable 'sp' could be declared final
+Code\Borrowable.java:30:	SystemPrintln:	Usage of System.out/err
+Code\Borrowable.java:32:	SystemPrintln:	Usage of System.out/err
+Code\Borrowable.java:41:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'checkStatus()'
+Code\Borrowable.java:51:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'issueResource(int)'
+Code\Borrowable.java:60:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'returnResource()'
+Code\Borrowable.java:63:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrowable.java:64:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrowable.java:65:	LocalVariableCouldBeFinal:	Local variable 'borrower' could be declared final
+Code\Borrowable.java:65:	UselessParentheses:	Useless parentheses.
+Code\Borrowable.java:67:	LawOfDemeter:	Access to field `issuedResources` on foreign value `borrower` (degree 1)
+Code\Borrowable.java:72:	NullAssignment:	Assigning an Object to null is a code smell.  Consider refactoring.
+Code\Borrowable.java:73:	NullAssignment:	Assigning an Object to null is a code smell.  Consider refactoring.
+Code\Borrowable.java:85:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'setIssueDate(String)'
+Code\Borrowable.java:85:	MethodArgumentCouldBeFinal:	Parameter 'date' is not assigned and could be declared final
+Code\Borrowable.java:86:	LocalVariableCouldBeFinal:	Local variable 'dateFormat' could be declared final
+Code\Borrowable.java:86:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Borrowable.java:89:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Code\Borrowable.java:90:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Code\Borrowable.java:100:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'getIssueDate()'
+Code\Borrowable.java:101:	LocalVariableCouldBeFinal:	Local variable 'dateFormat' could be declared final
+Code\Borrowable.java:101:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Borrowable.java:110:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'getReturnDate()'
+Code\Borrowable.java:111:	LocalVariableCouldBeFinal:	Local variable 'dateFormat' could be declared final
+Code\Borrowable.java:111:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Borrowable.java:117:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'getReturnDate1()'
+Code\Borrowable.java:119:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrowable.java:119:	ControlStatementBraces:	This statement should have braces
+Code\Borrowable.java:121:	ControlStatementBraces:	This statement should have braces
+Code\Borrowable.java:124:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'getIssueDate1()'
+Code\Borrowable.java:126:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrowable.java:126:	ControlStatementBraces:	This statement should have braces
+Code\Borrowable.java:128:	ControlStatementBraces:	This statement should have braces
+Code\Borrowable.java:131:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'setIssueDate(Date)'
+Code\Borrowable.java:131:	MethodArgumentCouldBeFinal:	Parameter 'date' is not assigned and could be declared final
+Code\Borrowable.java:135:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'setRelatedFine(int)'
+Code\Borrowable.java:135:	MethodArgumentCouldBeFinal:	Parameter 'fineID' is not assigned and could be declared final
+Code\Borrowable.java:139:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'getRelatedFine()'
+Code\Borrowable.java:143:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'removeRequest(int)'
+Code\Borrowable.java:143:	MethodArgumentCouldBeFinal:	Parameter 'userID' is not assigned and could be declared final
+Code\Borrowable.java:147:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:9:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Borrower.java:9:	AtLeastOneConstructor:	Each class should declare at least one constructor
+Code\Borrower.java:9:	TooManyMethods:	This class has too many methods, consider refactoring it.
+Code\Borrower.java:11:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'fines'
+Code\Borrower.java:13:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+Code\Borrower.java:13:	ReplaceVectorWithList:	Consider replacing this Vector with the newer java.util.List
+Code\Borrower.java:13:	LongVariable:	Avoid excessively long variable names like requestedResources
+Code\Borrower.java:13:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'requestedResources'
+Code\Borrower.java:13:	ReplaceVectorWithList:	Consider replacing this Vector with the newer java.util.List
+Code\Borrower.java:13:	UseArrayListInsteadOfVector:	Use ArrayList instead of Vector
+Code\Borrower.java:13:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new Vector<>()`
+Code\Borrower.java:15:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+Code\Borrower.java:15:	ReplaceVectorWithList:	Consider replacing this Vector with the newer java.util.List
+Code\Borrower.java:15:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'issuedResources'
+Code\Borrower.java:15:	ReplaceVectorWithList:	Consider replacing this Vector with the newer java.util.List
+Code\Borrower.java:15:	UseArrayListInsteadOfVector:	Use ArrayList instead of Vector
+Code\Borrower.java:15:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new Vector<>()`
+Code\Borrower.java:17:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'maxResources'
+Code\Borrower.java:23:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'viewFines()'
+Code\Borrower.java:25:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrower.java:26:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:29:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Borrower.java:29:	ShortVariable:	Avoid variables with short names like i
+Code\Borrower.java:30:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:31:	LocalVariableCouldBeFinal:	Local variable 'fine' could be declared final
+Code\Borrower.java:32:	LawOfDemeter:	Access to field `fine` on foreign value `fine` (degree 1)
+Code\Borrower.java:33:	ControlStatementBraces:	This statement should have braces
+Code\Borrower.java:34:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:34:	UselessParentheses:	Useless parentheses.
+Code\Borrower.java:34:	LawOfDemeter:	Access to field `resourceID` on foreign value `fine` (degree 1)
+Code\Borrower.java:34:	LawOfDemeter:	Access to field `fine` on foreign value `fine` (degree 1)
+Code\Borrower.java:39:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:45:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'viewRequests()'
+Code\Borrower.java:47:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrower.java:48:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:52:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:52:	AvoidDuplicateLiterals:	The String literal "LUMS Library" appears 9 times in this file; the first occurrence is on line 52
+Code\Borrower.java:53:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:56:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:56:	AvoidDuplicateLiterals:	The String literal ".\t" appears 5 times in this file; the first occurrence is on line 56
+Code\Borrower.java:56:	LawOfDemeter:	Access to field `resourceName` on foreign value `res` (degree 1)
+Code\Borrower.java:56:	AvoidDuplicateLiterals:	The String literal " --- " appears 10 times in this file; the first occurrence is on line 56
+Code\Borrower.java:56:	LawOfDemeter:	Access to field `resourceID` on foreign value `res` (degree 1)
+Code\Borrower.java:63:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'viewIssued()'
+Code\Borrower.java:64:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrower.java:65:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:65:	AvoidDuplicateLiterals:	The String literal "There are no resources issued!\n" appears 4 times in this file; the first occurrence is on line 65
+Code\Borrower.java:68:	LocalVariableCouldBeFinal:	Local variable 'dateFormat' could be declared final
+Code\Borrower.java:68:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Borrower.java:68:	AvoidDuplicateLiterals:	The String literal "dd/MM/yyyy" appears 4 times in this file; the first occurrence is on line 68
+Code\Borrower.java:70:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:71:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:73:	UselessParentheses:	Useless parentheses.
+Code\Borrower.java:74:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:74:	LawOfDemeter:	Access to field `resourceID` on foreign value `res` (degree 1)
+Code\Borrower.java:74:	LawOfDemeter:	Access to field `resourceName` on foreign value `res` (degree 1)
+Code\Borrower.java:81:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'viewIssueDates()'
+Code\Borrower.java:82:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrower.java:83:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:86:	UnusedLocalVariable:	Avoid unused local variables such as 'dateFormat'.
+Code\Borrower.java:86:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Borrower.java:88:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:89:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:91:	UselessParentheses:	Useless parentheses.
+Code\Borrower.java:92:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:92:	LawOfDemeter:	Access to field `resourceID` on foreign value `res` (degree 1)
+Code\Borrower.java:92:	LawOfDemeter:	Access to field `resourceName` on foreign value `res` (degree 1)
+Code\Borrower.java:100:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'viewDueDates()'
+Code\Borrower.java:101:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrower.java:102:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:105:	UnusedLocalVariable:	Avoid unused local variables such as 'dateFormat'.
+Code\Borrower.java:105:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Borrower.java:107:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:108:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:110:	UselessParentheses:	Useless parentheses.
+Code\Borrower.java:111:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:111:	LawOfDemeter:	Access to field `resourceID` on foreign value `res` (degree 1)
+Code\Borrower.java:111:	LawOfDemeter:	Access to field `resourceName` on foreign value `res` (degree 1)
+Code\Borrower.java:118:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'viewOverdue()'
+Code\Borrower.java:119:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrower.java:120:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:123:	UnusedLocalVariable:	Avoid unused local variables such as 'dateFormat'.
+Code\Borrower.java:123:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Borrower.java:124:	LocalVariableCouldBeFinal:	Local variable 'cal' could be declared final
+Code\Borrower.java:124:	LawOfDemeter:	Access to field `calendar` on foreign value `Library` (degree 1)
+Code\Borrower.java:125:	LocalVariableCouldBeFinal:	Local variable 'date' could be declared final
+Code\Borrower.java:125:	LawOfDemeter:	Call to `getTime` on foreign value `cal` (degree 2)
+Code\Borrower.java:127:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:130:	UselessParentheses:	Useless parentheses.
+Code\Borrower.java:133:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:136:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:136:	LawOfDemeter:	Access to field `resourceID` on foreign value `res` (degree 1)
+Code\Borrower.java:136:	LawOfDemeter:	Access to field `resourceName` on foreign value `res` (degree 1)
+Code\Borrower.java:140:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:152:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'tryIssue(ArrayList<LibraryResource>)'
+Code\Borrower.java:152:	CognitiveComplexity:	The method 'tryIssue(ArrayList<LibraryResource>)' has a cognitive complexity of 23, current threshold is 15
+Code\Borrower.java:152:	CyclomaticComplexity:	The method 'tryIssue(ArrayList<LibraryResource>)' has a cyclomatic complexity of 14.
+Code\Borrower.java:152:	NPathComplexity:	The method 'tryIssue(ArrayList<LibraryResource>)' has an NPath complexity of 510, current threshold is 200
+Code\Borrower.java:152:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Borrower.java:152:	MethodArgumentCouldBeFinal:	Parameter 'res' is not assigned and could be declared final
+Code\Borrower.java:153:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:155:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+Code\Borrower.java:156:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:157:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:161:	ShortVariable:	Avoid variables with short names like id
+Code\Borrower.java:162:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Borrower.java:163:	LawOfDemeter:	Access to field `type` on foreign value `res.get(i)` (degree 1)
+Code\Borrower.java:163:	LawOfDemeter:	Access to field `MAGAZINE` on foreign value `Constants` (degree 1)
+Code\Borrower.java:164:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:165:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:168:	LawOfDemeter:	Access to field `issuedTo` on foreign value `borrowable` (degree 1)
+Code\Borrower.java:169:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:170:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:176:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:179:	ControlStatementBraces:	This statement should have braces
+Code\Borrower.java:179:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:191:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:192:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:195:	LawOfDemeter:	Access to field `requests` on foreign value `borrowable` (degree 1)
+Code\Borrower.java:197:	SystemPrintln:	Usage of System.out/err
+Code\Borrower.java:198:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:203:	LocalVariableCouldBeFinal:	Local variable 'fine' could be declared final
+Code\Borrower.java:207:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:221:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'tryReturn(int)'
+Code\Borrower.java:221:	MethodArgumentCouldBeFinal:	Parameter 'resourceID' is not assigned and could be declared final
+Code\Borrower.java:223:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:224:	LocalVariableCouldBeFinal:	Local variable 'res' could be declared final
+Code\Borrower.java:225:	LocalVariableCouldBeFinal:	Local variable 'cal' could be declared final
+Code\Borrower.java:225:	LawOfDemeter:	Access to field `calendar` on foreign value `Library` (degree 1)
+Code\Borrower.java:226:	UnusedLocalVariable:	Avoid unused local variables such as 'd'.
+Code\Borrower.java:226:	ShortVariable:	Avoid variables with short names like d
+Code\Borrower.java:226:	LawOfDemeter:	Call to `getTime` on foreign value `cal` (degree 2)
+Code\Borrower.java:229:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:231:	LawOfDemeter:	Access to field `type` on foreign value `res` (degree 1)
+Code\Borrower.java:231:	LawOfDemeter:	Access to field `MAGAZINE` on foreign value `Constants` (degree 1)
+Code\Borrower.java:233:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:236:	LocalVariableCouldBeFinal:	Local variable 'borrowable' could be declared final
+Code\Borrower.java:237:	LawOfDemeter:	Access to field `issuedTo` on foreign value `borrowable` (degree 1)
+Code\Borrower.java:239:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:242:	LocalVariableCouldBeFinal:	Local variable 'relatedFineID' could be declared final
+Code\Borrower.java:243:	LocalVariableCouldBeFinal:	Local variable 'fine' could be declared final
+Code\Borrower.java:244:	LawOfDemeter:	Access to field `fineID` on foreign value `fine` (degree 1)
+Code\Borrower.java:246:	LawOfDemeter:	Access to field `fine` on foreign value `fine` (degree 1)
+Code\Borrower.java:253:	UnnecessaryCast:	Unnecessary cast (int)
+Code\Borrower.java:255:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:266:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'withdrawRequest(int)'
+Code\Borrower.java:266:	MethodArgumentCouldBeFinal:	Parameter 'resourceID' is not assigned and could be declared final
+Code\Borrower.java:268:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:269:	LocalVariableCouldBeFinal:	Local variable 'res' could be declared final
+Code\Borrower.java:271:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:271:	ControlStatementBraces:	This statement should have braces
+Code\Borrower.java:272:	LawOfDemeter:	Access to field `type` on foreign value `res` (degree 1)
+Code\Borrower.java:272:	LawOfDemeter:	Access to field `MAGAZINE` on foreign value `Constants` (degree 1)
+Code\Borrower.java:273:	LocalVariableCouldBeFinal:	Local variable 'bor' could be declared final
+Code\Borrower.java:276:	UnnecessaryCast:	Unnecessary cast (int)
+Code\Borrower.java:278:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:286:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'deleteRequest(int)'
+Code\Borrower.java:286:	MethodArgumentCouldBeFinal:	Parameter 'resID' is not assigned and could be declared final
+Code\Borrower.java:295:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'tryRenew(int)'
+Code\Borrower.java:295:	MethodArgumentCouldBeFinal:	Parameter 'resID' is not assigned and could be declared final
+Code\Borrower.java:296:	LocalVariableCouldBeFinal:	Local variable 'lib' could be declared final
+Code\Borrower.java:297:	LocalVariableCouldBeFinal:	Local variable 'res' could be declared final
+Code\Borrower.java:301:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:303:	LawOfDemeter:	Access to field `type` on foreign value `res` (degree 1)
+Code\Borrower.java:303:	LawOfDemeter:	Access to field `MAGAZINE` on foreign value `Constants` (degree 1)
+Code\Borrower.java:303:	LawOfDemeter:	Access to field `type` on foreign value `res` (degree 1)
+Code\Borrower.java:303:	LawOfDemeter:	Access to field `COURSE_PACK` on foreign value `Constants` (degree 1)
+Code\Borrower.java:305:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:307:	LocalVariableCouldBeFinal:	Local variable 'borrowable' could be declared final
+Code\Borrower.java:308:	LawOfDemeter:	Access to field `issuedTo` on foreign value `borrowable` (degree 1)
+Code\Borrower.java:310:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:313:	LocalVariableCouldBeFinal:	Local variable 'relatedFineID' could be declared final
+Code\Borrower.java:314:	LocalVariableCouldBeFinal:	Local variable 'fine' could be declared final
+Code\Borrower.java:315:	LawOfDemeter:	Access to field `fineID` on foreign value `fine` (degree 1)
+Code\Borrower.java:317:	LawOfDemeter:	Access to field `fine` on foreign value `fine` (degree 1)
+Code\Borrower.java:323:	LocalVariableCouldBeFinal:	Local variable 'fine' could be declared final
+Code\Borrower.java:327:	LawOfDemeter:	Access to field `FACULTY` on foreign value `Constants` (degree 1)
+Code\Borrower.java:328:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Borrower.java:335:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'findIssued(int)'
+Code\Borrower.java:335:	ShortVariable:	Avoid variables with short names like id
+Code\Borrower.java:335:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Code\Borrower.java:336:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Borrower.java:338:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Constants.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Constants.java:9:	UnnecessaryModifier:	Unnecessary modifiers 'static final' on field 'ADMIN': the field is declared in an interface type
+Code\Constants.java:9:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+Code\Constants.java:10:	UnnecessaryModifier:	Unnecessary modifiers 'static final' on field 'FACULTY': the field is declared in an interface type
+Code\Constants.java:10:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+Code\Constants.java:11:	UnnecessaryModifier:	Unnecessary modifiers 'static final' on field 'STUDENT': the field is declared in an interface type
+Code\Constants.java:11:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+Code\Constants.java:16:	UnnecessaryModifier:	Unnecessary modifiers 'static final' on field 'BOOK': the field is declared in an interface type
+Code\Constants.java:16:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+Code\Constants.java:17:	UnnecessaryModifier:	Unnecessary modifiers 'static final' on field 'COURSE_PACK': the field is declared in an interface type
+Code\Constants.java:17:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+Code\Constants.java:18:	UnnecessaryModifier:	Unnecessary modifiers 'static final' on field 'MAGAZINE': the field is declared in an interface type
+Code\Constants.java:18:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+Code\CoursePack.java:2:	UnnecessaryImport:	Unused import 'java.text.DateFormat'
+Code\CoursePack.java:3:	UnnecessaryImport:	Unused import 'java.text.SimpleDateFormat'
+Code\CoursePack.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\CoursePack.java:7:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'issueResource(int)'
+Code\CoursePack.java:7:	MethodArgumentCouldBeFinal:	Parameter 'userID' is not assigned and could be declared final
+Code\CoursePack.java:10:	LocalVariableCouldBeFinal:	Local variable 'cal' could be declared final
+Code\CoursePack.java:15:	SystemPrintln:	Usage of System.out/err
+Code\CoursePack.java:19:	CallSuperInConstructor:	It is a good practice to call super() in a constructor
+Code\CoursePack.java:19:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'CoursePack(String, int)'
+Code\CoursePack.java:19:	MethodArgumentCouldBeFinal:	Parameter 'resName' is not assigned and could be declared final
+Code\CoursePack.java:19:	MethodArgumentCouldBeFinal:	Parameter 'resID' is not assigned and could be declared final
+Code\CoursePack.java:24:	LawOfDemeter:	Access to field `COURSE_PACK` on foreign value `Constants` (degree 1)
+Code\Driver.java:5:	UnnecessaryImport:	Unused import 'javax.annotation.Resource'
+Code\Driver.java:7:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Driver.java:11:	ShortVariable:	Avoid variables with short names like sc
+Code\Driver.java:11:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'sc'
+Code\Driver.java:12:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'myLibrary'
+Code\Driver.java:16:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'Driver(String)'
+Code\Driver.java:16:	MethodArgumentCouldBeFinal:	Parameter 'libName' is not assigned and could be declared final
+Code\Driver.java:23:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'loginIO(int)'
+Code\Driver.java:23:	NcssCount:	The method 'loginIO(int)' has a NCSS line count of 126.
+Code\Driver.java:23:	CognitiveComplexity:	The method 'loginIO(int)' has a cognitive complexity of 33, current threshold is 15
+Code\Driver.java:23:	CyclomaticComplexity:	The method 'loginIO(int)' has a cyclomatic complexity of 30.
+Code\Driver.java:23:	NPathComplexity:	The method 'loginIO(int)' has an NPath complexity of 288, current threshold is 200
+Code\Driver.java:23:	MethodArgumentCouldBeFinal:	Parameter 'type' is not assigned and could be declared final
+Code\Driver.java:25:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Code\Driver.java:25:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Driver.java:25:	LocalVariableCouldBeFinal:	Local variable 'pass' could be declared final
+Code\Driver.java:27:	PrematureDeclaration:	Declaration of 'template' can be moved closer to its usages
+Code\Driver.java:27:	LocalVariableCouldBeFinal:	Local variable 'template' could be declared final
+Code\Driver.java:36:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:38:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:40:	LocalVariableCouldBeFinal:	Local variable 'user' could be declared final
+Code\Driver.java:44:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:45:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Driver.java:48:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Driver.java:55:	LawOfDemeter:	Access to field `type` on foreign value `user` (degree 1)
+Code\Driver.java:56:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:67:	LawOfDemeter:	Access to field `ADMIN` on foreign value `Constants` (degree 1)
+Code\Driver.java:71:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:76:	UnusedAssignment:	The value assigned to variable 'userInput' is never used (overwritten on lines 76 and 82)
+Code\Driver.java:82:	UnusedAssignment:	The value assigned to variable 'userInput' is never used (overwritten on lines 76, 82 and 119)
+Code\Driver.java:87:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:91:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:95:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:99:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:103:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:107:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:111:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:115:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:118:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:120:	UselessParentheses:	Useless parentheses.
+Code\Driver.java:120:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+Code\Driver.java:120:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+Code\Driver.java:121:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:126:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:126:	LawOfDemeter:	Access to field `userName` on foreign value `user` (degree 1)
+Code\Driver.java:130:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:130:	AvoidDuplicateLiterals:	The String literal "Give the correct input" appears 5 times in this file; the first occurrence is on line 130
+Code\Driver.java:137:	LocalVariableCouldBeFinal:	Local variable 'template_2' could be declared final
+Code\Driver.java:137:	LocalVariableNamingConventions:	The local variable name 'template_2' doesn't match '[a-z][a-zA-Z0-9]*'
+Code\Driver.java:146:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:151:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:152:	UnusedAssignment:	The value assigned to variable 'userInput' is never used (overwritten on lines 152 and 157)
+Code\Driver.java:157:	UnusedAssignment:	The value assigned to variable 'userInput' is never used (overwritten on lines 152, 157 and 190)
+Code\Driver.java:162:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:166:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:170:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:174:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:178:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:182:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:186:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:189:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:191:	UselessParentheses:	Useless parentheses.
+Code\Driver.java:191:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+Code\Driver.java:191:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+Code\Driver.java:192:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:197:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:197:	LawOfDemeter:	Access to field `userName` on foreign value `user` (degree 1)
+Code\Driver.java:201:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:213:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'addUserIO(Admin, int)'
+Code\Driver.java:213:	MethodArgumentCouldBeFinal:	Parameter 'admin' is not assigned and could be declared final
+Code\Driver.java:213:	MethodArgumentCouldBeFinal:	Parameter 'type' is not assigned and could be declared final
+Code\Driver.java:217:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Code\Driver.java:217:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Driver.java:217:	LocalVariableCouldBeFinal:	Local variable 'pass' could be declared final
+Code\Driver.java:219:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:221:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:224:	ShortVariable:	Avoid variables with short names like id
+Code\Driver.java:224:	LocalVariableCouldBeFinal:	Local variable 'id' could be declared final
+Code\Driver.java:226:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:229:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:238:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'removeUserIO(Admin)'
+Code\Driver.java:238:	MethodArgumentCouldBeFinal:	Parameter 'admin' is not assigned and could be declared final
+Code\Driver.java:242:	ShortVariable:	Avoid variables with short names like id
+Code\Driver.java:242:	LocalVariableCouldBeFinal:	Local variable 'id' could be declared final
+Code\Driver.java:243:	UnusedLocalVariable:	Avoid unused local variables such as 'userInput'.
+Code\Driver.java:244:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:247:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:248:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:249:	UnusedAssignment:	The value assigned to variable 'userInput' is never used (overwritten on lines 249 and 253)
+Code\Driver.java:250:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+Code\Driver.java:253:	UnusedAssignment:	The value assigned to variable 'userInput' is never used
+Code\Driver.java:256:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:259:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:269:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'addResourceIO(Admin, int)'
+Code\Driver.java:269:	MethodArgumentCouldBeFinal:	Parameter 'admin' is not assigned and could be declared final
+Code\Driver.java:269:	MethodArgumentCouldBeFinal:	Parameter 'type' is not assigned and could be declared final
+Code\Driver.java:273:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Code\Driver.java:274:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:277:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:280:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:289:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'removeResourceIO(Admin)'
+Code\Driver.java:289:	MethodArgumentCouldBeFinal:	Parameter 'admin' is not assigned and could be declared final
+Code\Driver.java:292:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Driver.java:292:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Driver.java:293:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Code\Driver.java:293:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Driver.java:293:	UnusedLocalVariable:	Avoid unused local variables such as 'userInput'.
+Code\Driver.java:294:	UnusedLocalVariable:	Avoid unused local variables such as 'id'.
+Code\Driver.java:294:	ShortVariable:	Avoid variables with short names like id
+Code\Driver.java:294:	UnusedAssignment:	The initializer for variable 'id' is never used (overwritten on line 297)
+Code\Driver.java:295:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:297:	UnusedAssignment:	The value assigned to variable 'id' is never used
+Code\Driver.java:298:	UnusedAssignment:	The value assigned to variable 'userInput' is never used
+Code\Driver.java:306:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Driver.java:308:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:311:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:321:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'borrowIO(Borrower, int)'
+Code\Driver.java:321:	MethodArgumentCouldBeFinal:	Parameter 'borrower' is not assigned and could be declared final
+Code\Driver.java:324:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Driver.java:324:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Driver.java:325:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Code\Driver.java:326:	UnusedLocalVariable:	Avoid unused local variables such as 'id'.
+Code\Driver.java:326:	ShortVariable:	Avoid variables with short names like id
+Code\Driver.java:326:	UnusedAssignment:	The initializer for variable 'id' is never used (overwritten on line 329)
+Code\Driver.java:327:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:329:	UnusedAssignment:	The value assigned to variable 'id' is never used
+Code\Driver.java:330:	UnusedAssignment:	The value assigned to variable 'name' is never used
+Code\Driver.java:347:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'returnResourceIO(Borrower)'
+Code\Driver.java:347:	MethodArgumentCouldBeFinal:	Parameter 'borrower' is not assigned and could be declared final
+Code\Driver.java:350:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Driver.java:350:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Driver.java:351:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Code\Driver.java:352:	ShortVariable:	Avoid variables with short names like id
+Code\Driver.java:353:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:356:	UnusedAssignment:	The value assigned to variable 'name' is never used
+Code\Driver.java:365:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Driver.java:368:	CollapsibleIfStatements:	This if statement could be combined with its parent
+Code\Driver.java:369:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:376:	CollapsibleIfStatements:	This if statement could be combined with its parent
+Code\Driver.java:377:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:383:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:392:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'deleteRequestIO(Borrower)'
+Code\Driver.java:392:	MethodArgumentCouldBeFinal:	Parameter 'borrower' is not assigned and could be declared final
+Code\Driver.java:395:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Driver.java:395:	UnusedAssignment:	The initializer for variable 'resources' is never used (overwritten on line 407)
+Code\Driver.java:395:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Driver.java:396:	ShortVariable:	Avoid variables with short names like id
+Code\Driver.java:396:	UnnecessarySemicolon:	Unnecessary semicolon
+Code\Driver.java:397:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Code\Driver.java:399:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:401:	UnusedAssignment:	The value assigned to variable 'id' is never used
+Code\Driver.java:402:	UnusedAssignment:	The value assigned to variable 'name' is never used
+Code\Driver.java:408:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Driver.java:410:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:411:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Driver.java:416:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:421:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:430:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'renewResourceIO(Borrower)'
+Code\Driver.java:430:	MethodArgumentCouldBeFinal:	Parameter 'borrower' is not assigned and could be declared final
+Code\Driver.java:433:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Driver.java:433:	LocalVariableCouldBeFinal:	Local variable 'resources' could be declared final
+Code\Driver.java:433:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Driver.java:434:	ShortVariable:	Avoid variables with short names like id
+Code\Driver.java:434:	UnnecessarySemicolon:	Unnecessary semicolon
+Code\Driver.java:435:	UnusedLocalVariable:	Avoid unused local variables such as 'name'.
+Code\Driver.java:436:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:439:	UnusedAssignment:	The value assigned to variable 'name' is never used
+Code\Driver.java:442:	UnusedAssignment:	The value assigned to variable 'name' is never used
+Code\Driver.java:443:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Driver.java:445:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:452:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:455:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:472:	CyclomaticComplexity:	The method 'main(String[])' has a cyclomatic complexity of 10.
+Code\Driver.java:474:	LocalVariableCouldBeFinal:	Local variable 'libName' could be declared final
+Code\Driver.java:476:	LocalVariableCouldBeFinal:	Local variable 'driver' could be declared final
+Code\Driver.java:478:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:485:	LocalVariableCouldBeFinal:	Local variable 'template' could be declared final
+Code\Driver.java:493:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:494:	UnusedAssignment:	The value assigned to variable 'userInput' is never used (overwritten on lines 494 and 498)
+Code\Driver.java:498:	UnusedAssignment:	The value assigned to variable 'userInput' is never used (overwritten on lines 494, 498 and 518)
+Code\Driver.java:502:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:506:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:510:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:514:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:517:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:519:	UselessParentheses:	Useless parentheses.
+Code\Driver.java:519:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+Code\Driver.java:519:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+Code\Driver.java:520:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:524:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:528:	SystemPrintln:	Usage of System.out/err
+Code\Driver.java:536:	LocalVariableCouldBeFinal:	Local variable 'dateFormat' could be declared final
+Code\Driver.java:536:	SimpleDateFormatNeedsLocale:	When instantiating a SimpleDateFormat object, specify a Locale
+Code\Driver.java:537:	LocalVariableCouldBeFinal:	Local variable 'cal' could be declared final
+Code\Driver.java:537:	LawOfDemeter:	Access to field `calendar` on foreign value `Library` (degree 1)
+Code\Driver.java:538:	SystemPrintln:	Usage of System.out/err
+Code\Faculty.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Faculty.java:5:	CallSuperInConstructor:	It is a good practice to call super() in a constructor
+Code\Faculty.java:5:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'Faculty(String, String)'
+Code\Faculty.java:5:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Code\Faculty.java:5:	MethodArgumentCouldBeFinal:	Parameter 'pass' is not assigned and could be declared final
+Code\Faculty.java:8:	LawOfDemeter:	Access to field `FACULTY` on foreign value `Constants` (degree 1)
+Code\Faculty.java:10:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new HashSet<>()`
+Code\Fine.java:1:	UnnecessaryImport:	Unused import 'java.util.*'
+Code\Fine.java:2:	UnnecessaryImport:	Unused import 'java.text.DateFormat'
+Code\Fine.java:3:	UnnecessaryImport:	Unused import 'java.text.SimpleDateFormat'
+Code\Fine.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Fine.java:5:	ShortClassName:	Avoid short class names like Fine
+Code\Fine.java:7:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'fineID'
+Code\Fine.java:8:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'resourceID'
+Code\Fine.java:9:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'userID'
+Code\Fine.java:10:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Code\Fine.java:10:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'fine'
+Code\Fine.java:13:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'Fine(int, int, int)'
+Code\Fine.java:13:	MethodArgumentCouldBeFinal:	Parameter '_resID' is not assigned and could be declared final
+Code\Fine.java:13:	FormalParameterNamingConventions:	The method parameter name '_resID' doesn't match '[a-z][a-zA-Z0-9]*'
+Code\Fine.java:13:	MethodArgumentCouldBeFinal:	Parameter 'userID' is not assigned and could be declared final
+Code\Fine.java:13:	MethodArgumentCouldBeFinal:	Parameter '_fine' is not assigned and could be declared final
+Code\Fine.java:13:	FormalParameterNamingConventions:	The method parameter name '_fine' doesn't match '[a-z][a-zA-Z0-9]*'
+Code\Fine.java:15:	LawOfDemeter:	Access to field `nextFineID` on foreign value `Library` (degree 1)
+Code\Fine.java:22:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'updateFine(int)'
+Code\Fine.java:22:	MethodArgumentCouldBeFinal:	Parameter 'fine' is not assigned and could be declared final
+Code\Library.java:3:	UnnecessaryImport:	Unused import 'java.text.DateFormat'
+Code\Library.java:4:	UnnecessaryImport:	Unused import 'java.text.SimpleDateFormat'
+Code\Library.java:11:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Library.java:11:	GodClass:	Possible God Class (WMC=53, ATFD=12, TCC=25.758%)
+Code\Library.java:11:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Code\Library.java:11:	TooManyMethods:	This class has too many methods, consider refactoring it.
+Code\Library.java:13:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'libraryName'
+Code\Library.java:14:	MutableStaticState:	Do not use non-final non-private static fields
+Code\Library.java:14:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'calendar'
+Code\Library.java:20:	MutableStaticState:	Do not use non-final non-private static fields
+Code\Library.java:20:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'lib'
+Code\Library.java:23:	MutableStaticState:	Do not use non-final non-private static fields
+Code\Library.java:23:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'nextResID'
+Code\Library.java:24:	MutableStaticState:	Do not use non-final non-private static fields
+Code\Library.java:24:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'nextUserID'
+Code\Library.java:24:	UseUnderscoresInNumericLiterals:	Number 14100180 should separate every third digit with an underscore
+Code\Library.java:25:	RedundantFieldInitializer:	Avoid using redundant field initializer for 'nextFineID'
+Code\Library.java:25:	MutableStaticState:	Do not use non-final non-private static fields
+Code\Library.java:25:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'nextFineID'
+Code\Library.java:27:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'toBeFined'
+Code\Library.java:34:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Library.java:38:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Library.java:43:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Code\Library.java:44:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'calendar' in a constructor.
+Code\Library.java:46:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new HashSet<>()`
+Code\Library.java:52:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Library.java:53:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Library.java:61:	LocalVariableCouldBeFinal:	Local variable 'admin' could be declared final
+Code\Library.java:74:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Code\Library.java:85:	LinguisticNaming:	Linguistics Antipattern - The getter 'getLibraryStats' should not return void linguistically
+Code\Library.java:85:	CognitiveComplexity:	The method 'getLibraryStats()' has a cognitive complexity of 30, current threshold is 15
+Code\Library.java:85:	CyclomaticComplexity:	The method 'getLibraryStats()' has a cyclomatic complexity of 15.
+Code\Library.java:87:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Library.java:90:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Library.java:91:	LawOfDemeter:	Access to field `type` on foreign value `users.get(i)` (degree 1)
+Code\Library.java:91:	LawOfDemeter:	Access to field `ADMIN` on foreign value `Constants` (degree 1)
+Code\Library.java:92:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:93:	LawOfDemeter:	Access to field `type` on foreign value `users.get(i)` (degree 1)
+Code\Library.java:93:	LawOfDemeter:	Access to field `FACULTY` on foreign value `Constants` (degree 1)
+Code\Library.java:94:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:96:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:99:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Library.java:99:	LocalVariableNamingConventions:	The local variable name 'course_packs' doesn't match '[a-z][a-zA-Z0-9]*'
+Code\Library.java:101:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Library.java:104:	LocalVariableCouldBeFinal:	Local variable 'date' could be declared final
+Code\Library.java:107:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Library.java:108:	LawOfDemeter:	Access to field `type` on foreign value `resources.get(i)` (degree 1)
+Code\Library.java:108:	LawOfDemeter:	Access to field `BOOK` on foreign value `Constants` (degree 1)
+Code\Library.java:111:	LawOfDemeter:	Access to field `requests` on foreign value `borrowable` (degree 1)
+Code\Library.java:112:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:114:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:116:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:118:	LawOfDemeter:	Access to field `type` on foreign value `resources.get(i)` (degree 1)
+Code\Library.java:118:	LawOfDemeter:	Access to field `COURSE_PACK` on foreign value `Constants` (degree 1)
+Code\Library.java:121:	LawOfDemeter:	Access to field `requests` on foreign value `borrowable` (degree 1)
+Code\Library.java:122:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:124:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:126:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:129:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:132:	SystemPrintln:	Usage of System.out/err
+Code\Library.java:133:	SystemPrintln:	Usage of System.out/err
+Code\Library.java:135:	SystemPrintln:	Usage of System.out/err
+Code\Library.java:138:	SystemPrintln:	Usage of System.out/err
+Code\Library.java:146:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'findUser(String)'
+Code\Library.java:146:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Code\Library.java:149:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Library.java:150:	LawOfDemeter:	Access to field `userName` on foreign value `users.get(i)` (degree 1)
+Code\Library.java:151:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:157:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'findUser(int)'
+Code\Library.java:157:	MethodArgumentCouldBeFinal:	Parameter 'userID' is not assigned and could be declared final
+Code\Library.java:159:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Library.java:160:	LawOfDemeter:	Access to field `userID` on foreign value `users.get(i)` (degree 1)
+Code\Library.java:161:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:172:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'removeUser(int)'
+Code\Library.java:172:	MethodArgumentCouldBeFinal:	Parameter 'userID' is not assigned and could be declared final
+Code\Library.java:177:	LocalVariableCouldBeFinal:	Local variable 'user' could be declared final
+Code\Library.java:178:	LawOfDemeter:	Access to field `type` on foreign value `user` (degree 1)
+Code\Library.java:178:	LawOfDemeter:	Access to field `ADMIN` on foreign value `Constants` (degree 1)
+Code\Library.java:179:	LocalVariableCouldBeFinal:	Local variable 'borrower' could be declared final
+Code\Library.java:180:	LawOfDemeter:	Access to field `issuedResources` on foreign value `borrower` (degree 1)
+Code\Library.java:181:	LawOfDemeter:	Access to field `issuedResources` on foreign value `borrower` (degree 1)
+Code\Library.java:187:	LawOfDemeter:	Access to field `userID` on foreign value `users.get(i)` (degree 1)
+Code\Library.java:189:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:201:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'findResource(int)'
+Code\Library.java:201:	MethodArgumentCouldBeFinal:	Parameter 'resID' is not assigned and could be declared final
+Code\Library.java:203:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Library.java:204:	LawOfDemeter:	Access to field `resourceID` on foreign value `resources.get(i)` (degree 1)
+Code\Library.java:205:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:211:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Library.java:211:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'findResource(String)'
+Code\Library.java:211:	MethodArgumentCouldBeFinal:	Parameter 'resName' is not assigned and could be declared final
+Code\Library.java:213:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+Code\Library.java:213:	LocalVariableCouldBeFinal:	Local variable 'list' could be declared final
+Code\Library.java:213:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+Code\Library.java:214:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+Code\Library.java:215:	LawOfDemeter:	Access to field `resourceName` on foreign value `resources.get(i)` (degree 1)
+Code\Library.java:227:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'removeResource(int)'
+Code\Library.java:227:	MethodArgumentCouldBeFinal:	Parameter 'resourceID' is not assigned and could be declared final
+Code\Library.java:229:	LocalVariableCouldBeFinal:	Local variable 'res' could be declared final
+Code\Library.java:231:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:231:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:232:	LawOfDemeter:	Access to field `type` on foreign value `res` (degree 1)
+Code\Library.java:232:	LawOfDemeter:	Access to field `MAGAZINE` on foreign value `Constants` (degree 1)
+Code\Library.java:234:	LocalVariableCouldBeFinal:	Local variable 'bor' could be declared final
+Code\Library.java:235:	LawOfDemeter:	Access to field `requests` on foreign value `bor` (degree 1)
+Code\Library.java:236:	LawOfDemeter:	Access to field `requests` on foreign value `bor` (degree 1)
+Code\Library.java:239:	LocalVariableCouldBeFinal:	Local variable 'borrower' could be declared final
+Code\Library.java:245:	LawOfDemeter:	Access to field `resourceID` on foreign value `resources.get(i)` (degree 1)
+Code\Library.java:247:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:259:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'updateFines()'
+Code\Library.java:268:	LocalVariableCouldBeFinal:	Local variable 'today' could be declared final
+Code\Library.java:268:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Library': 'calendar' is already in scope because it is declared in an enclosing type
+Code\Library.java:269:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Code\Library.java:269:	UnusedAssignment:	The initializer for variable 'amount' is never used (overwritten on lines 286 and 290)
+Code\Library.java:269:	UnusedAssignment:	The initializer for variable 'days' is never used (overwritten on line 284)
+Code\Library.java:270:	UnusedLocalVariable:	Avoid unused local variables such as 'borrower'.
+Code\Library.java:273:	LocalVariableCouldBeFinal:	Local variable 'fine' could be declared final
+Code\Library.java:275:	LocalVariableCouldBeFinal:	Local variable 'res' could be declared final
+Code\Library.java:283:	UnusedAssignment:	The value assigned to variable 'borrower' is never used (reassigned every iteration)
+Code\Library.java:285:	LawOfDemeter:	Access to field `type` on foreign value `borrowable` (degree 1)
+Code\Library.java:285:	LawOfDemeter:	Access to field `BOOK` on foreign value `Constants` (degree 1)
+Code\Library.java:289:	LawOfDemeter:	Access to field `type` on foreign value `borrowable` (degree 1)
+Code\Library.java:289:	LawOfDemeter:	Access to field `COURSE_PACK` on foreign value `Constants` (degree 1)
+Code\Library.java:300:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'removeToBeFined(Fine)'
+Code\Library.java:300:	MethodArgumentCouldBeFinal:	Parameter 'fine' is not assigned and could be declared final
+Code\Library.java:305:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:308:	ControlStatementBraces:	This statement should have braces
+Code\Library.java:311:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'addToBeFined(Fine)'
+Code\Library.java:311:	MethodArgumentCouldBeFinal:	Parameter 'fine' is not assigned and could be declared final
+Code\Library.java:314:	ConfusingTernary:	Avoid if (x != y) ..; else ..;
+Code\Library.java:316:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\Library.java:319:	ControlStatementBraces:	This statement should have braces
+Code\LibraryInfo.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\LibraryInfo.java:13:	LinguisticNaming:	Linguistics Antipattern - The getter 'getLibraryStats' should not return void linguistically
+Code\LibraryResource.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\LibraryResource.java:5:	AtLeastOneConstructor:	Each class should declare at least one constructor
+Code\LibraryResource.java:10:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'resourceName'
+Code\LibraryResource.java:17:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'type'
+Code\LibraryUser.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\LibraryUser.java:5:	AtLeastOneConstructor:	Each class should declare at least one constructor
+Code\LibraryUser.java:10:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'userName'
+Code\LibraryUser.java:14:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'password'
+Code\LibraryUser.java:18:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'userID'
+Code\LibraryUser.java:20:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'type'
+Code\LibraryUser.java:25:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'getUserID()'
+Code\LibraryUser.java:35:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'login(String, String)'
+Code\LibraryUser.java:35:	MethodArgumentCouldBeFinal:	Parameter 'userName' is not assigned and could be declared final
+Code\LibraryUser.java:35:	MethodArgumentCouldBeFinal:	Parameter 'password' is not assigned and could be declared final
+Code\LibraryUser.java:39:	UselessParentheses:	Useless parentheses.
+Code\LibraryUser.java:40:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Code\LibraryUser.java:43:	SystemPrintln:	Usage of System.out/err
+Code\LibraryUser.java:52:	CommentDefaultAccessModifier:	Missing commented default access modifier on method 'logout()'
+Code\Magazine.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Magazine.java:5:	CallSuperInConstructor:	It is a good practice to call super() in a constructor
+Code\Magazine.java:5:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'Magazine(String, int)'
+Code\Magazine.java:5:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Code\Magazine.java:5:	MethodArgumentCouldBeFinal:	Parameter 'resID' is not assigned and could be declared final
+Code\Magazine.java:8:	LawOfDemeter:	Access to field `MAGAZINE` on foreign value `Constants` (degree 1)
+Code\Student.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Code\Student.java:5:	CallSuperInConstructor:	It is a good practice to call super() in a constructor
+Code\Student.java:5:	CommentDefaultAccessModifier:	Missing commented default access modifier on constructor 'Student(String, String)'
+Code\Student.java:5:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Code\Student.java:5:	MethodArgumentCouldBeFinal:	Parameter 'pass' is not assigned and could be declared final
+Code\Student.java:8:	LawOfDemeter:	Access to field `STUDENT` on foreign value `Constants` (degree 1)
+Code\Student.java:10:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new HashSet<>()`
+LoosePackageCoupling	-	No packages or classes specified

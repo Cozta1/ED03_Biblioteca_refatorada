@@ -1,0 +1,55 @@
+Found a 13 line (56 tokens) duplication in the following files: 
+Starting at line 25 of Refatorado\src\com\biblioteca\ui\MenuAdmin.java
+Starting at line 30 of Refatorado\src\com\biblioteca\ui\MenuUsuario.java
+
+            System.out.println(MENU);
+            int opcao = lerInteiro();
+            try {
+                ativo = processar(opcao);
+            } catch (RuntimeException ex) {
+                System.out.println("Erro: " + ex.getMessage());
+            }
+        }
+    }
+
+    private boolean processar(int opcao) {
+        switch (opcao) {
+            case 1: adicionarUsuario(TipoUsuario.ADMIN); break;
+
+=====================================================================
+Found a 14 line (46 tokens) duplication in the following files: 
+Starting at line 60 of Refatorado\src\com\biblioteca\ui\MenuAdmin.java
+Starting at line 67 of Refatorado\src\com\biblioteca\ui\MenuUsuario.java
+
+        return scanner.nextLine();
+    }
+
+    private int lerInteiroComLabel(String label) {
+        System.out.print(label);
+        return lerInteiro();
+    }
+
+    private int lerInteiro() {
+        int v = scanner.nextInt();
+        scanner.nextLine();
+        return v;
+    }
+}
+
+=====================================================================
+Found a 11 line (40 tokens) duplication in the following files: 
+Starting at line 9 of Refatorado\src\com\biblioteca\model\Livro.java
+Starting at line 8 of Refatorado\src\com\biblioteca\model\PacoteCurso.java
+
+    public Livro(int id, String nome) {
+        super(id, nome);
+    }
+
+    @Override
+    public boolean podeSerEmprestado() {
+        return super.podeSerEmprestado();
+    }
+
+    @Override
+    public int getPrazoPara(TipoUsuario tipo) {
+
